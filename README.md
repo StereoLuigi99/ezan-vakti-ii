@@ -1,18 +1,23 @@
 # ezan-vakti-ii
 <img width="298" height="340" alt="20260517_224540" src="https://github.com/user-attachments/assets/1872f1a3-48b4-4523-8327-36bdee5e9ced" />
 illogical-impulse dotfile'ı için ezan vakti widget uygulaması
+
 ```
 git clone https://github.com/StereoLuigi99/ezan-vakti-ii
 cd ezan-vakti-ii
 ```
+
 Prayer.qml dosyasındaki IlceID sayısını kendinize göre değiştirin.
 Bunun için vakitler.sh scriptini kullanabilirsiniz.
+
 ```
 chmod +x vakitler.sh
 ./vakitler.sh --sehirlist => SehirID'den istediğinizi seçin (İstanbul: 539)
 ./vakitler.sh --ilcelist 539 => İstanbul'daki IlceID'lerden istediğinizi seçin (Merkez: 9541)
 ```
+
 Prayer.qml
+
 ```
 function getData() {
     ...
@@ -20,12 +25,15 @@ function getData() {
     ...
 }
 ```
+
 ```
 cp Prayer.qml ~/.config/quickshell/ii/services/
 cp PtPopup.qml ~/.config/quickshell/ii/modules/ii/bar/
 cp PtIndicator.qml ~/.config/quickshell/ii/modules/ii/bar/
 ```
+
 Aynı zamanda ~/.config/quickshell/ii/modules/ii/bar/BarContent.qml'in sonuna, Weather yorumlu bölümün altına şu bölümü ekleyin:
+
 ```
 Loader {
     Layout.leftMargin: 10
