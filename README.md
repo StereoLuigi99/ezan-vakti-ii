@@ -1,5 +1,4 @@
 # ezan-vakti-ii
-<img width="298" height="340" alt="20260517_224540" src="https://github.com/user-attachments/assets/1872f1a3-48b4-4523-8327-36bdee5e9ced" />
 illogical-impulse dotfile'ı için ezan vakti widget uygulaması
 
 ```
