@@ -7,14 +7,14 @@ cp Prayer.qml ~/.config/quickshell/ii/services/
 cp PtPopup.qml ~/.config/quickshell/ii/modules/ii/bar/
 cp PtIndicator.qml ~/.config/quickshell/ii/modules/ii/bar/
 ```
-Aynı zamanda ~/.config/quickshell/ii/modules/ii/bar/BarContent.qml'in sonuna şu bölümü ekleyin:
+Aynı zamanda ~/.config/quickshell/ii/modules/ii/bar/BarContent.qml'in sonuna, Weather yorumlu bölümün altına şu bölümü ekleyin:
 ```
 Loader {
-                Layout.leftMargin: 10
-                active: true
+    Layout.leftMargin: 10
+    active: true
 
-                sourceComponent: BarGroup {
-                    PtIndicator {}
-                }
-            }
+    sourceComponent: BarGroup {
+        PtIndicator {}
+    }
+}
 ```
