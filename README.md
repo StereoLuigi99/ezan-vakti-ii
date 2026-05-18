@@ -1,6 +1,6 @@
 # ezan-vakti-ii
 illogical-impulse dotfile'ı için ezan vakti widget uygulaması
-<img width="298" height="340" alt="20260517_224540" src="https://github.com/user-attachments/assets/1872f1a3-48b4-4523-8327-36bdee5e9ced" />
+<br><img width="298" height="340" alt="20260517_224540" src="https://github.com/user-attachments/assets/1872f1a3-48b4-4523-8327-36bdee5e9ced" />
 ```
 git clone https://github.com/StereoLuigi99/ezan-vakti-ii
 cd ezan-vakti-ii
