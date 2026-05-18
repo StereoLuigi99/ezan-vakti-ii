@@ -15,7 +15,7 @@ Prayer.qml
 ```
 function getData() {
     ...
-    let IlceID = 9528; <== BU DEĞERİ DEĞİŞTİRMELİSİNİZ
+    let IlceID = 9541; <== BU DEĞERİ DEĞİŞTİRMELİSİNİZ
     ...
 }
 ```
